@@ -1,7 +1,7 @@
 const config = require('../config');
 const { cmd, commands } = require('../command');
 
-// Array of different fancy text styles for ARSLAN-MD
+// Array of different fancy text styles for ANAYAT-AI
 const botNameStyles = [
     "⒜⒩⒜⒴⒜⒯-⒜⒤",
     "🅰🅽🅰🆈🅰🆃-🅰🅸",
@@ -24,7 +24,7 @@ cmd({
     use: '.ping',
     desc: "Check bot's response time.",
     category: "main",
-    react: "🌡️",
+    react: "⚡",
     filename: __filename
 },
 async (conn, mek, m, { from, quoted, sender, reply }) => {
